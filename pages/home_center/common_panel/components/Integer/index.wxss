@@ -1,0 +1,52 @@
+/* pages/home_center/common_panel/components/Integer/index.wxss */
+
+.integer-container {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 24px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+
+.integer-name{
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: PingFangSC-Medium;
+  font-size: 16px;
+  line-height: 25px;
+  color: #505050;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 2494882 */
+  src: url('//at.alicdn.com/t/font_2494882_nqev9rxual.eot');
+  src: url('//at.alicdn.com/t/font_2494882_nqev9rxual.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_2494882_nqev9rxual.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_2494882_nqev9rxual.woff') format('woff'),
+  url('//at.alicdn.com/t/font_2494882_nqev9rxual.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_2494882_nqev9rxual.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family: 'iconfont';
+  color: rgb(0, 217, 255);
+  font-size: 60px;
+}
+
+.icon-Light::before{
+  content: '\eb53';
+}
+
+.icon-TV::before{
+  content: '\e608';
+}
+
+.icon-onoff::before{
+  content: '\e7df';
+}
+
+.icon-fan::before{
+  content: '\e658';
+}
+.icon-ic::before{
+  content: '\e658';
+}

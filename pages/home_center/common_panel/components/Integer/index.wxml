@@ -1,0 +1,18 @@
+<!--pages/home_center/common_panel/components/Integer/index.wxml-->
+<view class="integer-container">
+  <view class="integer-name">{{dpName}}:{{value}}{{unit}}</view>
+  <van-slider min="{{min}}" step="{{step}}" max="{{max}}" value="{{value}}" active-color="#349fff" bind:change="onChange" />
+
+  
+</view>
+<button bindtap='ck' class='btn'>开灯</button>
+<icon class="iconfont icon-Light"></icon>
+
+<button bindtap='ck' class='btn'>开风扇</button>
+<icon class="iconfont icon-ic"></icon>
+
+<button bindtap='ck' class='btn'>开电视</button>
+<icon class="iconfont icon-TV"></icon>
+ 
+<button bindtap='ck' class='btn'>开空调</button>
+<icon class="iconfont icon-ic"></icon>
